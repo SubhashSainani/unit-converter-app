@@ -20,23 +20,19 @@ The home screen where users can select the source and destination units and ente
 
 ![Main Screen](screenshot_main.png)
 
-### Conversion Process
-Users can input a value and press the "Convert" button to perform the conversion.
+### Conversion Process and Resultd
+Users can input a value and press the "Convert" button to perform the conversion. Once the conversion is complete, the result is displayed in a card view.
 
-![Conversion Process](screenshotconvert_button.png)
+![Conversion Process](conversion_celsius-fahrenheit.png)
 
-### Conversion Results
-Once the conversion is complete, the result is displayed in a card view.
-
-![Conversion Results](screenshots/conversion_results.png)
 
 ### Error Handling
 In case of an invalid input or empty value, the app provides appropriate error messages.
 
-![Error Handling](screenshots/error_handling.png)
+![Error Handling](error_handling_empty_input.png)
 
-## How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/unit-converter-app.git
+### Error Handling
+In case of an same input category, the app provides appropriate error messages.
+
+![Error Handling](error_handling_same_source-destination.png)
